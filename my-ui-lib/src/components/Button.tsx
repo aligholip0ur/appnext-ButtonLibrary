@@ -1,9 +1,8 @@
-// src/components/Button.tsx
 import React from 'react';
 import './Button.css';
 
 type ButtonProps = {
-  variant?: 'primary' | 'secondary' | 'outline';
+  variant?: 'primary' | 'secondary' | 'warning';
   size?: 'small' | 'medium' | 'large';
   disabled?: boolean;
   onClick?: () => void;
@@ -12,7 +11,7 @@ type ButtonProps = {
 
 export const Button: React.FC<ButtonProps> = ({
   variant = 'primary',
-  size = 'md',
+  size = 'large',
   disabled = false,
   onClick,
   children

@@ -1,10 +1,9 @@
-/* src/components/Button.css */
 .btn {
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    border-radius: 4px;
-    font-size: 1rem;
+    border-radius: 6px;
+    font-size: 1.5rem;
   }
   
   .primary {
@@ -14,6 +13,19 @@
   
   .secondary {
     background-color: #6c757d;
+    color: white;
+  }
+  .btn:hover{
+    background-color: rgb(34, 34, 168);
+  }
+  .warning
+  {
+    background-color: #ffc107;
+    color: black;
+  }
+  .warning:hover
+  {
+    background-color: rgb(17, 17, 141);
     color: white;
   }
   
