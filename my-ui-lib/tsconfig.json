@@ -17,12 +17,12 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "types": [
-      "@storybook/types",
-      "@storybook/react",
-      "@testing-library/jest-dom",
-      "node"
-    ]
+    // "types": [
+    //   "@storybook/types",
+    //   "@storybook/react",
+    //   "@testing-library/jest-dom",
+    //   "node"
+    // ]
   },
   "include": [
     "src",
