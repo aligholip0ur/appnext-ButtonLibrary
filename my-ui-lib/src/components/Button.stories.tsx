@@ -1,21 +1,16 @@
-// import React from 'react';
-// import { Button } from './Button'; // فرض می‌کنیم که کامپوننت Button رو ساختی
+import type { Meta, StoryObj } from '@storybook/react';
+import { Button } from './Button'; // مسیر درست نسبت به محل فایل
 
-// export default {
-//   title: 'Components/Button',
-//   component: Button,
-// };
+const meta: Meta<typeof Button> = {
+  title: 'Components/Button',
+  component: Button,
+};
+export default meta;
 
-// const Template = (args) => <Button {...args} />;
+type Story = StoryObj<typeof Button>;
 
-// export const Primary = Template.bind({});
-// Primary.args = {
-//   variant: 'primary',
-//   size: 'medium',
-// };
-
-// export const Secondary = Template.bind({});
-// Secondary.args = {
-//   variant: 'secondary',
-//   size: 'small',
-// };
+export const Primary: Story = {
+  args: {
+    children: 'Click me!',
+  },
+};
