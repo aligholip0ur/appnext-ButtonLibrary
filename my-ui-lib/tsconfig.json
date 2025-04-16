@@ -32,6 +32,10 @@
     "node_modules",
     "dist",
     "**/*.test.ts",
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "**/*.stories.ts",
+    "**/*.stories.tsx",
+    "my-ui-lib/**/*.stories.tsx",
+    "my-ui-lib/**/*.test.tsx"
   ]
 }
